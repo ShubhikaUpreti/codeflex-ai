@@ -1,36 +1,35 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-## Getting Started
+<div align="center">
+  <img src="https://img.shields.io/badge/-Next_JS-black?style=for-the-badge&logo=nextdotjs&logoColor=white&color=61DAFB" alt="Next.js" />
+  <img src="https://img.shields.io/badge/-React-black?style=for-the-badge&logo=react&logoColor=white&color=61DAFB" alt="React" />
+  <img src="https://img.shields.io/badge/-Tailwind_CSS-black?style=for-the-badge&logo=tailwindcss&logoColor=white&color=06B6D4" alt="Tailwind CSS" />
+  <img src="https://img.shields.io/badge/-Shadcn_UI-black?style=for-the-badge&logo=radixui&logoColor=white&color=0F172A" alt="Shadcn UI" />
+  <img src="https://img.shields.io/badge/-Clerk-black?style=for-the-badge&logo=clerk&logoColor=white&color=3B82F6" alt="Clerk" />
+  <img src="https://img.shields.io/badge/-Vapi-black?style=for-the-badge&logoColor=white&color=4ADE80" alt="Vapi" />
+  <img src="https://img.shields.io/badge/-Convex-black?style=for-the-badge&logoColor=white&color=8B5CF6" alt="Convex" />
+  <img src="https://img.shields.io/badge/-Gemini_AI-black?style=for-the-badge&logo=google&logoColor=white&color=34A853" alt="Gemini AI" />
+</div>
 
-First, run the development server:
+<h1 align="center">CodeFlex- An AI Fitness Assistant 💪 </h1>
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Highlights:
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- 🚀 Tech stack: Next.js, React, Tailwind & Shadcn UI
+- 🎙️ Voice AI Assistant (Vapi)
+- 🧠 LLM Integration (Gemini AI)
+- 🏋️ Personalized Workout Plans
+- 🥗 Custom Diet Programs
+- 🔒 Authentication & Authorization (Clerk)
+- 💾 Database (Convex)
+- 🎬 Real-time Program Generation
+- 💻 Layouts
+- 🎭 Client & Server Components
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Features
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- **Smart AI Assistant**: Engage in conversation with an AI that asks about your fitness goals, physical condition, and preferences
+- **Personalized Workout Plans**: Get custom exercise routines based on your fitness level, injuries, and goals
+- **Diet Recommendations**: Receive personalized meal plans accounting for your allergies and dietary preferences
+- **User Authentication**: Sign in with GitHub, Google, or email/password
+- **Program Management**: Create and view multiple fitness programs with only the latest one active
+- **Responsive Design**: Beautiful UI that works across all devices
