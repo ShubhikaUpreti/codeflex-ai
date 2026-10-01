@@ -122,27 +122,34 @@ const GenerateProgramPage = () => {
   }, []);
 
   const toggleCall = async () => {
-    if (callActive) vapi.stop();
-    else {
-      try {
-        setConnecting(true);
-        setMessages([]);
-        setCallEnded(false);
+    if (callActive) {
+      vapi.stop();
+      return;
+    }
 
-        const fullName = user?.firstName
-          ? `${user.firstName} ${user.lastName || ""}`.trim()
-          : "There";
+    if (!user?.id) {
+      alert("Please sign in before starting a call.");
+      return;
+    }
 
-        await vapi.start(process.env.NEXT_PUBLIC_VAPI_WORKFLOW_ID!, {
-          variableValues: {
-            full_name: fullName,
-            user_id: user?.id,
-          },
-        });
-      } catch (error) {
-        console.log("Failed to start call", error);
-        setConnecting(false);
-      }
+    try {
+      setConnecting(true);
+      setMessages([]);
+      setCallEnded(false);
+
+      const fullName = user.firstName
+        ? `${user.firstName} ${user.lastName || ""}`.trim()
+        : "There";
+
+      await vapi.start("b5209118-4dbc-4509-8bbf-98c140890a53", {
+        variableValues: {
+          full_name: fullName,
+          user_id: user.id,
+        },
+      });
+    } catch (error) {
+      console.error("Failed to start call", error);
+      setConnecting(false);
     }
   };
 
